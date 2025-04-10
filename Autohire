@@ -1,0 +1,31 @@
+ 1. Project Title :
+AutoHire: Multi-Agent AI for Smart Recruitment
+
+2. Overview / Problem Statement:
+Recruiters often spend hours manually going through job descriptions and candidate resumes, which is slow and error-prone.
+Our project solves this problem by creating a multi-agent AI system that:
+- Reads and summarizes job descriptions
+- Extracts key information from resumes
+- Matches candidates to job requirements
+- Automatically shortlists and schedules interviews
+
+3. Project Architecture :
+This project uses 4 AI agents:
+- JD Summarizer Agent: Extracts key skills and requirements from job descriptions.
+-  Resume Parser Agent: Extracts education, experience, and skills from CVs.
+- Matching Agent: Calculates match scores based on JD and CV comparison.
+-  Interview Scheduler Agent: Sends interview invites to shortlisted candidates.
+
+4. Tech Stack:
+- Language: Python
+- NLP: spaCy, NLTK, HuggingFace Transformers (BERT)
+- CV Parsing: pyresparser, pdfminer, docx2txt
+- Database: SQLite (for storing JDs, CVs, match scores)
+- Emailing: smtplib, email module (Python)
+- Optional UI: Streamlit / Flask (for demo)
+
+5. Team & Acknowledgements :
+Made by Saksham Khanna & Raghav Garg
+Hackathon: Hack the Future
+Special Thanks: Team Accenture , Geeksforgeeks & GenAI.
+
